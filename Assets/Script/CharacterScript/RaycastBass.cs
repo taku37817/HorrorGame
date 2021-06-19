@@ -51,7 +51,7 @@ namespace F
         private textActiv active;
 
         //ドアアニメーション再生のスクリプト取得変数
-        private doorRay_judgment door_juge;
+        private doorjudgment door_juge;
 
         [Tooltip("メッセージオブジェクトの名前")]
         private string message_ObjName;
@@ -119,7 +119,7 @@ namespace F
                 {
                     eButton.enabled = true;
                     item_object = hit.collider.gameObject;
-                    door_juge = item_object.GetComponent<doorRay_judgment>();
+                    door_juge = item_object.GetComponent<doorjudgment>();
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
