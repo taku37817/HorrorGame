@@ -32,16 +32,16 @@ namespace F
 
         [Tooltip("Use スクリプトがついている、オブジェクト取得")]
         public GameObject PlayerObj;
-        Use Use_script_Hold_hensu;
+        RaycastBass RaycastBass_script_Hold_hensu;
         private void Start()
         {
             Camera = GameObject.Find("Camera");
             characterController = GetComponent<CharacterController>();
-            Use_script_Hold_hensu = PlayerObj.GetComponent<Use>();
+            RaycastBass_script_Hold_hensu = PlayerObj.GetComponent<RaycastBass>();
         }
         private void Update()
         {
-            bool use_Hold_judge = Use_script_Hold_hensu.hold;
+            bool use_Hold_judge = RaycastBass_script_Hold_hensu.hold;
             charaMove();
             if (use_Hold_judge == false)
             {
