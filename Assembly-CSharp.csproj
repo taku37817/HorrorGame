@@ -58,7 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\FxaaComponent.cs" />
     <Compile Include="Assets\Script\CharacterScript\Look.cs" />
-    <Compile Include="Assets\Script\Ray_judgment\doorRay_judgment.cs" />
+    <Compile Include="Assets\Script\Ray_judgment\doorjudgment.cs" />
     <Compile Include="Assets\Script\TeatScript\base_clase\test_use.cs" />
     <Compile Include="Assets\Script\SpotLight\SpotLight.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
@@ -86,8 +86,8 @@
     <Compile Include="Assets\Script\TeatScript\EventTest\EventActor.cs" />
     <Compile Include="Assets\Script\TeatScript\EventTest\Eventmanager.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\PostProcessingProfile.cs" />
+    <Compile Include="Assets\Script\CharacterScript\Move.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\GrainComponent.cs" />
-    <Compile Include="Assets\Script\event_script\audio_subClass\footsteps.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\PostProcessingContext.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
@@ -103,17 +103,18 @@
     <Compile Include="Assets\Script\TeatScript\instance.cs" />
     <Compile Include="Assets\Script\ObjectActiv\textActiv.cs" />
     <Compile Include="Assets\Script\Anima.cs" />
-    <Compile Include="Assets\Script\event_script\audio_supper\voice_audio_instance.cs" />
+    <Compile Include="Assets\Script\event_script\voice_audio_instance.cs" />
     <Compile Include="Assets\Script\TeatScript\Ray_search.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
     <Compile Include="Assets\Script\Prefab_Instantiate\Ghost_instace.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\DitheringComponent.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
+    <Compile Include="Assets\Script\CharacterScript\RaycastBass.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\PostProcessingComponent.cs" />
-    <Compile Include="Assets\Script\event_script\audio_supper\event_audio_Destory.cs" />
+    <Compile Include="Assets\Script\event_script\event_audio_Destory.cs" />
     <Compile Include="Assets\Script\TeatScript\nearObj.cs" />
-    <Compile Include="Assets\Script\event_script\audio_supper\audio_instance.cs" />
+    <Compile Include="Assets\Script\event_script\audio_instance.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
@@ -121,7 +122,6 @@
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
-    <Compile Include="Assets\Script\CharacterScript\Use.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\FogComponent.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\BloomModel.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
@@ -133,7 +133,6 @@
     <Compile Include="Assets\Script\TeatScript\anima_judge.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\DitheringModel.cs" />
-    <Compile Include="Assets\Script\CharacterScript\Move.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />

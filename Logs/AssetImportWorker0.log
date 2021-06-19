@@ -15,11 +15,11 @@ E:/ゲーム制作データ/Git/ホラーゲーム
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49156
+56676
 Successfully changed project path to: E:/ゲーム制作データ/Git/ホラーゲーム
 E:/ゲーム制作データ/Git/ホラーゲーム
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.68 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 59.12 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.3f1 (76626098c1c4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,51 +35,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003615 seconds.
+Registered in 0.003455 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 44.08 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 43.15 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.631 seconds
+- Completed reload, in  1.687 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.111116 seconds.
+Registered in 0.125104 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.085 seconds
+- Completed reload, in  3.540 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 1.45 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1623 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 113.9 MB.
 System memory in use after: 114.0 MB.
 
-Unloading 69 unused Assets to reduce memory usage. Loaded Objects now: 2103.
-Total: 2.789000 ms (FindLiveObjects: 0.214800 ms CreateObjectMapping: 0.088400 ms MarkObjects: 2.215800 ms  DeleteObjects: 0.269300 ms)
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 2102.
+Total: 7.427100 ms (FindLiveObjects: 0.711600 ms CreateObjectMapping: 0.221100 ms MarkObjects: 5.528900 ms  DeleteObjects: 0.961700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000677 seconds.
+Registered in 0.000727 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -94,39 +94,111 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.819 seconds
+- Completed reload, in  0.934 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1558 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.5 MB.
+System memory in use after: 108.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2105.
+Total: 10.700300 ms (FindLiveObjects: 0.291500 ms CreateObjectMapping: 0.062900 ms MarkObjects: 8.964800 ms  DeleteObjects: 1.375100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000982 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.948 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1558 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.5 MB.
+System memory in use after: 108.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2108.
+Total: 2.512600 ms (FindLiveObjects: 0.178000 ms CreateObjectMapping: 0.049800 ms MarkObjects: 2.052400 ms  DeleteObjects: 0.231200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Script/event_script/voice_audio_instance.cs
+  artifactKey: Guid(d96c2eca86bebe44aa088e18a84383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/event_script/voice_audio_instance.cs using Guid(d96c2eca86bebe44aa088e18a84383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add9452d72d367048aea17750aae7f2e') in 0.073830 seconds
+  Import took 0.088432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.951800 seconds.
+  path: Assets/Script/event_script/audio_instance.cs
+  artifactKey: Guid(ab10056687b70ed4bad930c1f60562f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/event_script/audio_instance.cs using Guid(ab10056687b70ed4bad930c1f60562f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8edd0178e80da7a19d7d13710345021') in 0.014483 seconds
+  Import took 0.022649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017581 seconds.
+  path: Assets/Script/event_script/audio_instance.cs
+  artifactKey: Guid(ab10056687b70ed4bad930c1f60562f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/event_script/audio_instance.cs using Guid(ab10056687b70ed4bad930c1f60562f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8edd0178e80da7a19d7d13710345021') in 0.007768 seconds
+  Import took 0.013347 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001341 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.930 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1559 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 108.5 MB.
 System memory in use after: 108.6 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2106.
-Total: 2.730800 ms (FindLiveObjects: 0.247400 ms CreateObjectMapping: 0.094200 ms MarkObjects: 2.221500 ms  DeleteObjects: 0.166500 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Script/CharacterScript/Look.cs
-  artifactKey: Guid(b9a5bca15ba78994e8add874dba352cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/CharacterScript/Look.cs using Guid(b9a5bca15ba78994e8add874dba352cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbefa5dc2b7fca7de669815b65b7f40a') in 0.075052 seconds
-  Import took 0.081500 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000530 seconds.
-  path: Assets/Script/CharacterScript/Move.cs
-  artifactKey: Guid(9e565e2b64f3e2d4b827b0ec3ff9107e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/CharacterScript/Move.cs using Guid(9e565e2b64f3e2d4b827b0ec3ff9107e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fac5691732323210f234fc7c8f080c5') in 0.011450 seconds
-  Import took 0.016198 seconds .
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2110.
+Total: 2.155000 ms (FindLiveObjects: 0.148000 ms CreateObjectMapping: 0.040100 ms MarkObjects: 1.810700 ms  DeleteObjects: 0.155200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.137577 seconds.
+Registered in 0.000774 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -141,776 +213,48 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.974 seconds
+- Completed reload, in  1.285 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1559 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1558 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 108.5 MB.
 System memory in use after: 108.6 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2109.
-Total: 3.424100 ms (FindLiveObjects: 0.277200 ms CreateObjectMapping: 0.095200 ms MarkObjects: 2.830900 ms  DeleteObjects: 0.218800 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2114.
+Total: 2.200400 ms (FindLiveObjects: 0.173800 ms CreateObjectMapping: 0.052200 ms MarkObjects: 1.801200 ms  DeleteObjects: 0.171200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 203.613000 seconds.
-  path: Assets/Asset_summary/Character/ghost/Ghost.fbx
-  artifactKey: Guid(c2e76ba8f09ea974e9bd06995040c867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_summary/Character/ghost/Ghost.fbx using Guid(c2e76ba8f09ea974e9bd06995040c867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faee1b67a6863af7c26d5135d099a26c') in 0.844503 seconds
-  Import took 0.860748 seconds .
+  Time since last request: 685.862888 seconds.
+  path: Assets/Script/Prefab_Instantiate/Ghost_instace.cs
+  artifactKey: Guid(0b26a9f60f9ce5740a1080e3aa3dd76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Prefab_Instantiate/Ghost_instace.cs using Guid(0b26a9f60f9ce5740a1080e3aa3dd76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d0522170414c7c34b3e66f4972dfe2') in 0.023830 seconds
+  Import took 0.032133 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.773187 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_Floor_Mid_A_DM_A.fbx
-  artifactKey: Guid(621a5d6ef705a1d4d81313f8cffeed53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_Floor_Mid_A_DM_A.fbx using Guid(621a5d6ef705a1d4d81313f8cffeed53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c790112504f6d290fe39ce708bcd186b') in 0.045177 seconds
-  Import took 0.052145 seconds .
+  Time since last request: 69.664758 seconds.
+  path: Assets/Flooded_Grounds/Scripts/DisableRenderer.cs
+  artifactKey: Guid(78b5e677f5c60e548a68ce75b82380be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Scripts/DisableRenderer.cs using Guid(78b5e677f5c60e548a68ce75b82380be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc6e2db8850ec47b21614668dc8b72a') in 0.019887 seconds
+  Import took 0.026542 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_IntStairs_A.fbx
-  artifactKey: Guid(f03a0b9a9b8682d40b323894651de91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_IntStairs_A.fbx using Guid(f03a0b9a9b8682d40b323894651de91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6ee3aefbfbdbd9f9d0d1b5adb269d6') in 0.046089 seconds
-  Import took 0.051787 seconds .
+  Time since last request: 439.136485 seconds.
+  path: Assets/Script/Ray_judgment/doorRay_judgment.cs
+  artifactKey: Guid(4a2b155bdc6ee8442adc1a7fd1bd21a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Ray_judgment/doorRay_judgment.cs using Guid(4a2b155bdc6ee8442adc1a7fd1bd21a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1839f8ae779df0ba5e0a3a08eb29b1') in 0.011777 seconds
+  Import took 0.020033 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000397 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_Floor_Mid_A_DM_B_COL.fbx
-  artifactKey: Guid(a3d0eba37d1b8e6498f35c5514f8ea55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_Floor_Mid_A_DM_B_COL.fbx using Guid(a3d0eba37d1b8e6498f35c5514f8ea55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a17d03418422d6959c04d58d73dc254') in 0.044635 seconds
-  Import took 0.052688 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_Floor_Mid_B.fbx
-  artifactKey: Guid(6944c949f8d183d43bc3b8ef552b99c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_Floor_Mid_B.fbx using Guid(6944c949f8d183d43bc3b8ef552b99c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f33c29237bdf4d24f1412281c7506d') in 0.048152 seconds
-  Import took 0.054795 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_IntWall_A.fbx
-  artifactKey: Guid(40581848ce71d194db3034b2ba2ecf5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_IntWall_A.fbx using Guid(40581848ce71d194db3034b2ba2ecf5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4563ecb93be9c826df59e513c4d8aa7') in 0.041433 seconds
-  Import took 0.050180 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_Floor_Mid_A_DM_B.fbx
-  artifactKey: Guid(d98081a7d2d7c444bb1ae9bfd4d41051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_Floor_Mid_A_DM_B.fbx using Guid(d98081a7d2d7c444bb1ae9bfd4d41051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e956eb6c2bf97179f220fb8700b0d02') in 0.040437 seconds
-  Import took 0.048975 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_IntWall_B.fbx
-  artifactKey: Guid(b4f5041707622124d8f5eebadc814c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_IntWall_B.fbx using Guid(b4f5041707622124d8f5eebadc814c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f5136d3e8c55056896d9dbd50c3c34') in 0.040745 seconds
-  Import took 0.046952 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000467 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_Mid_B.fbx
-  artifactKey: Guid(f1a73dd9e67a25140a9eb78307675a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_Mid_B.fbx using Guid(f1a73dd9e67a25140a9eb78307675a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b708f0840a54e772e1dd4eb56b310b8') in 0.050805 seconds
-  Import took 0.059724 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mCabins/Cabin2_Deco_WindowGlass_A.fbx
-  artifactKey: Guid(04cc115979bc5db44b1aa47707cadf2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mCabins/Cabin2_Deco_WindowGlass_A.fbx using Guid(04cc115979bc5db44b1aa47707cadf2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4ed03ea6b0c5c1011056f39e0349f0') in 0.044828 seconds
-  Import took 0.050271 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_Mid_A.fbx
-  artifactKey: Guid(fefca4b56654b8945afe1beff73c2752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_Mid_A.fbx using Guid(fefca4b56654b8945afe1beff73c2752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18eebe822a91dcffafaf50cbe2ea532') in 0.049491 seconds
-  Import took 0.056548 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Asset_summary/Character/prescribed/Right walking 2.fbx
-  artifactKey: Guid(831b3e31719ce8e468f2a486266df6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_summary/Character/prescribed/Right walking 2.fbx using Guid(831b3e31719ce8e468f2a486266df6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545d2c88dc350ee028b1c759d68d3a0c') in 0.199315 seconds
-  Import took 0.205928 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mCabins/Cabin1_DM.fbx
-  artifactKey: Guid(7729cb95abf30e449a2f0bd9f6a94191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mCabins/Cabin1_DM.fbx using Guid(7729cb95abf30e449a2f0bd9f6a94191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bffa938c3108806624f9e0a2486d3b3') in 0.051363 seconds
-  Import took 0.055461 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Asset_summary/Character/prescribed_unspecified/running.fbx
-  artifactKey: Guid(ed6c58e541bf36d47b4f954d8a30edb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_summary/Character/prescribed_unspecified/running.fbx using Guid(ed6c58e541bf36d47b4f954d8a30edb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e7ce7ad89248c0979207280c461a36') in 0.182712 seconds
-  Import took 0.188765 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mCabins/Cabin2_Mid2.fbx
-  artifactKey: Guid(08d225ce47b54c942a29c4403ca7172e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mCabins/Cabin2_Mid2.fbx using Guid(08d225ce47b54c942a29c4403ca7172e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2d8686d03d0f980d621031a5ed4f2d') in 0.044801 seconds
-  Import took 0.051284 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mCabins/Cabin2_End1.fbx
-  artifactKey: Guid(c0922aa6a800c5e4394e696a91c302b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mCabins/Cabin2_End1.fbx using Guid(c0922aa6a800c5e4394e696a91c302b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a300bd685aa43bbdd4d4c1d8d72db208') in 0.048967 seconds
-  Import took 0.054574 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mCabins/Cabin2_End2.fbx
-  artifactKey: Guid(76b891a14b22e284f99bdaf16b10dc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mCabins/Cabin2_End2.fbx using Guid(76b891a14b22e284f99bdaf16b10dc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b37bc8161635aaafb390c0843e30d0') in 0.048216 seconds
-  Import took 0.053551 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_Mid_C.fbx
-  artifactKey: Guid(35ab284a2483a154297995a4ecf1b9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_Mid_C.fbx using Guid(35ab284a2483a154297995a4ecf1b9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4844bba774c6b14fb97ce1037768dcb') in 0.046387 seconds
-  Import took 0.052483 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000589 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mCabins/Cabin2_Door_A.fbx
-  artifactKey: Guid(c6bf715f38b6c824d9099af62318db45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mCabins/Cabin2_Door_A.fbx using Guid(c6bf715f38b6c824d9099af62318db45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a31326eaf76f67687b0d5e61e5f42a2') in 0.040170 seconds
-  Import took 0.046352 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000416 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mCabins/Cabin1_Door_A.fbx
-  artifactKey: Guid(4567fa51052829e48a392b58a304a125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mCabins/Cabin1_Door_A.fbx using Guid(4567fa51052829e48a392b58a304a125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2d87a61bd6bae08a0f62150e6350ec') in 0.046531 seconds
-  Import took 0.053765 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mCabins/Cabin2_Stairs.fbx
-  artifactKey: Guid(695df44871b9bd5439e88400e7eab30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mCabins/Cabin2_Stairs.fbx using Guid(695df44871b9bd5439e88400e7eab30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6368434cac0b33e22a8627970e3e34') in 0.041216 seconds
-  Import took 0.045986 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Asset_summary/Character/prescribed_unspecified/backwalk.fbx
-  artifactKey: Guid(a17f6c7fb3065e447ac09b5c8d1cb658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_summary/Character/prescribed_unspecified/backwalk.fbx using Guid(a17f6c7fb3065e447ac09b5c8d1cb658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e67d6b4fcfef168ae29379caf224cd') in 0.174954 seconds
-  Import took 0.180634 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_IntStairs_A_COL.fbx
-  artifactKey: Guid(f7fe600ca9d3635418e49f543f4616e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_IntStairs_A_COL.fbx using Guid(f7fe600ca9d3635418e49f543f4616e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62da2884d76d32ca9ffc81cc79d4171') in 0.046817 seconds
-  Import took 0.052513 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000486 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mCabins/Cabin2_Mid1.fbx
-  artifactKey: Guid(fcabad233c066664488f5f6a3f8e6632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mCabins/Cabin2_Mid1.fbx using Guid(fcabad233c066664488f5f6a3f8e6632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32685898b6438ed71b7e564af59423e6') in 0.044261 seconds
-  Import took 0.052300 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_IntWall_C.fbx
-  artifactKey: Guid(8dea3d00786ffc0459f4908c132f8854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mBrickHouse/BrickHouse_IntWall_C.fbx using Guid(8dea3d00786ffc0459f4908c132f8854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f40e872e0c456e40686aa0ced5504cb') in 0.042689 seconds
-  Import took 0.048562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mCabins/Cabin1_Deco_WindowGlass_A.fbx
-  artifactKey: Guid(eb73c6f1d30479e42987fac89f58a3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mCabins/Cabin1_Deco_WindowGlass_A.fbx using Guid(eb73c6f1d30479e42987fac89f58a3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e71be1b16b5f2cda3ceaf566b56516e4') in 0.040533 seconds
-  Import took 0.044796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mCabins/Cabin1.fbx
-  artifactKey: Guid(7b88c8bab8da05247bc3298df5939c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mCabins/Cabin1.fbx using Guid(7b88c8bab8da05247bc3298df5939c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8dd5618e0a7154560b000545b6fb249') in 0.047405 seconds
-  Import took 0.052762 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Asset_summary/Character/prescribed_unspecified/Right walking.fbx
-  artifactKey: Guid(2c4dc3cc66c73eb4e8b6cf242eef4e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_summary/Character/prescribed_unspecified/Right walking.fbx using Guid(2c4dc3cc66c73eb4e8b6cf242eef4e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9f62f755d40503dde55fb18ac55ebc') in 0.173987 seconds
-  Import took 0.180704 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Asset_summary/Character/prescribed_unspecified/Standard Walk.fbx
-  artifactKey: Guid(6dd128d89fa379442b13e0738d802d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_summary/Character/prescribed_unspecified/Standard Walk.fbx using Guid(6dd128d89fa379442b13e0738d802d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944bb9a49a1719454f9793524d0f299f') in 0.180730 seconds
-  Import took 0.185206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mCabins/Cabin1_Stairs.fbx
-  artifactKey: Guid(b9d7c7cce9875f54ababa1da98d5ab93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mCabins/Cabin1_Stairs.fbx using Guid(b9d7c7cce9875f54ababa1da98d5ab93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea90b3bd84d20e7c7daf746703628701') in 0.044781 seconds
-  Import took 0.049524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mCabins/Cabin2_Ext1.fbx
-  artifactKey: Guid(562ec34fab32b5343886256ef273f218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mCabins/Cabin2_Ext1.fbx using Guid(562ec34fab32b5343886256ef273f218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a15dc9bdc84a0bc52ac6b41b99e9ff6') in 0.045639 seconds
-  Import took 0.053395 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.797145 seconds.
-  path: Assets/VillagePack/OldHouse/OldHouse.fbx
-  artifactKey: Guid(c70032afc7e2f214c8b20d1e445fb365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VillagePack/OldHouse/OldHouse.fbx using Guid(c70032afc7e2f214c8b20d1e445fb365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328966eb32a3ad26002ab1309056dc8e') in 0.816347 seconds
-  Import took 0.821536 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mNature/mBushes/DecoBush_B.fbx
-  artifactKey: Guid(0e0d7fac187ce644e85f79d8513288d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mNature/mBushes/DecoBush_B.fbx using Guid(0e0d7fac187ce644e85f79d8513288d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636706dd80cba8a5625ff6185e6a4e79') in 0.048449 seconds
-  Import took 0.053798 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000484 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mNature/mBushes/DecoBush_D.fbx
-  artifactKey: Guid(6a8ad6fc9049800429f4239ea517123a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mNature/mBushes/DecoBush_D.fbx using Guid(6a8ad6fc9049800429f4239ea517123a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909804369df198fae9f6fc43de0bde7d') in 0.040425 seconds
-  Import took 0.045933 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mNature/mBushes/DecoBush_C.fbx
-  artifactKey: Guid(2f0bb1032b48d5845966aa580a118718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mNature/mBushes/DecoBush_C.fbx using Guid(2f0bb1032b48d5845966aa580a118718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93cb2063b77f43b8fa38394c8b1061f') in 0.045205 seconds
-  Import took 0.051023 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mNature/mBushes/DecoBush_A.fbx
-  artifactKey: Guid(2ec06634d560e75429179e080d686b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mNature/mBushes/DecoBush_A.fbx using Guid(2ec06634d560e75429179e080d686b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3b251e40550298948d74035f92b172') in 0.041826 seconds
-  Import took 0.046730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002209 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mNature/mBushes/DecoBush_C.fbx
-  artifactKey: Guid(2f0bb1032b48d5845966aa580a118718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mNature/mBushes/DecoBush_C.fbx using Guid(2f0bb1032b48d5845966aa580a118718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93cb2063b77f43b8fa38394c8b1061f') in 0.033575 seconds
-  Import took 0.039651 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.144114 seconds.
-  path: Assets/VillagePack/Well/Well.fbx
-  artifactKey: Guid(21cf86b1834db25468c609ce2465187f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VillagePack/Well/Well.fbx using Guid(21cf86b1834db25468c609ce2465187f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0801e06d2b3f76539ea16386de061e87') in 0.977553 seconds
-  Import took 0.982044 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mChurches/Church1_End_A.fbx
-  artifactKey: Guid(1dd05a661a6c9fe4eb0e76a5691bf308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mChurches/Church1_End_A.fbx using Guid(1dd05a661a6c9fe4eb0e76a5691bf308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e687d99677be34a17421fa3b287aea') in 0.050567 seconds
-  Import took 0.056597 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mChurches/Church1_Mid_A.fbx
-  artifactKey: Guid(b6cc4b3b46f234646b2d42a3ce0a5080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mChurches/Church1_Mid_A.fbx using Guid(b6cc4b3b46f234646b2d42a3ce0a5080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d8d32e2c01bc7fec4ccfdf0d61cd11') in 0.049430 seconds
-  Import took 0.055809 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mChurches/Church1_End_B.fbx
-  artifactKey: Guid(c40947bb801a9d14495192a9b5700b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mChurches/Church1_End_B.fbx using Guid(c40947bb801a9d14495192a9b5700b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158c4a52832a0574be012b6b2c87e950') in 0.050889 seconds
-  Import took 0.058181 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.183222 seconds.
-  path: Assets/Asset_summary/ancient clan.fbx
-  artifactKey: Guid(b33bf5e31b345994f8cdfb205551969b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_summary/ancient clan.fbx using Guid(b33bf5e31b345994f8cdfb205551969b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5415122a29ca092a01d0c76170459362') in 0.031922 seconds
-  Import took 0.037598 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.146702 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mStructures/Pavement2_End_A.fbx
-  artifactKey: Guid(19168a2efac778e44bb83444416d1fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mStructures/Pavement2_End_A.fbx using Guid(19168a2efac778e44bb83444416d1fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a763311cb2dd7fd6bde8ebe0dcb0652') in 0.045366 seconds
-  Import took 0.051376 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mProps/Prop_Rug_C.fbx
-  artifactKey: Guid(513499f9d76de634cbcfe89284395a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mProps/Prop_Rug_C.fbx using Guid(513499f9d76de634cbcfe89284395a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90fe3f1b7e18710290fb8d8144963c3') in 0.042598 seconds
-  Import took 0.049707 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mStructures/Pavement2_End_A.fbx
-  artifactKey: Guid(19168a2efac778e44bb83444416d1fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mStructures/Pavement2_End_A.fbx using Guid(19168a2efac778e44bb83444416d1fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a763311cb2dd7fd6bde8ebe0dcb0652') in 0.020714 seconds
-  Import took 0.023643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mProps/Prop_Rug_B.fbx
-  artifactKey: Guid(f78cb6b1bea1fb64aa0c84f11c105d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mProps/Prop_Rug_B.fbx using Guid(f78cb6b1bea1fb64aa0c84f11c105d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f43250d70cf87c925a4795d19b1082') in 0.038905 seconds
-  Import took 0.042299 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mProps/Prop_Rug_D.fbx
-  artifactKey: Guid(7e7505ef3e6f0704b9e46255c4add97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mProps/Prop_Rug_D.fbx using Guid(7e7505ef3e6f0704b9e46255c4add97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a704dda2b95fef86c283500d58659d07') in 0.039282 seconds
-  Import took 0.045183 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mProps/Prop_Rug_A.fbx
-  artifactKey: Guid(8578e13efcf14964d8fcc8dc5cb10d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mProps/Prop_Rug_A.fbx using Guid(8578e13efcf14964d8fcc8dc5cb10d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c69b6d416a3f07a2a900d595e07a7d') in 0.049103 seconds
-  Import took 0.055066 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000662 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mProps/Prop_Painting_C.fbx
-  artifactKey: Guid(23285db713af79049a0cd47f1a8c78cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mProps/Prop_Painting_C.fbx using Guid(23285db713af79049a0cd47f1a8c78cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc329921d03325097d151fa459972255') in 0.050507 seconds
-  Import took 0.054674 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mStructures/Pavement2_Mid_A.fbx
-  artifactKey: Guid(f175db5183ae8f14cb4cb669a89224ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mStructures/Pavement2_Mid_A.fbx using Guid(f175db5183ae8f14cb4cb669a89224ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4080d013ab43e036c32a1c3c0cbd2e1c') in 0.039220 seconds
-  Import took 0.043150 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mProps/Prop_Painting_A.fbx
-  artifactKey: Guid(10dfd4d4840b47543a0787023b094f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mProps/Prop_Painting_A.fbx using Guid(10dfd4d4840b47543a0787023b094f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668640f80ee71be58ef4fc85c7cb9325') in 0.042403 seconds
-  Import took 0.048633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mProps/Prop_Painting_D.fbx
-  artifactKey: Guid(db075b91a6fa7874a88bacb72348afd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mProps/Prop_Painting_D.fbx using Guid(db075b91a6fa7874a88bacb72348afd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52b5e5e9e0df1a311b3e4e740d36433') in 0.045380 seconds
-  Import took 0.052844 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mProps/Prop_Ship_A.fbx
-  artifactKey: Guid(d7331aa52cb7719449bc9e0fbb3f671c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mProps/Prop_Ship_A.fbx using Guid(d7331aa52cb7719449bc9e0fbb3f671c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3299567746d07b330b35677c44612eca') in 0.115365 seconds
-  Import took 0.118807 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mProps/Prop_Painting_B.fbx
-  artifactKey: Guid(a7017ebc27bb4794b8cc0b547b386472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mProps/Prop_Painting_B.fbx using Guid(a7017ebc27bb4794b8cc0b547b386472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14fc8adb749ce26f28b70adb6f2dc5f') in 0.045556 seconds
-  Import took 0.050822 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001154 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.861 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1559 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.7 MB.
-System memory in use after: 125.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2156.
-Total: 2.862500 ms (FindLiveObjects: 0.210600 ms CreateObjectMapping: 0.059500 ms MarkObjects: 2.398700 ms  DeleteObjects: 0.192400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000944 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.996 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1559 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.7 MB.
-System memory in use after: 125.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2159.
-Total: 2.473100 ms (FindLiveObjects: 0.207600 ms CreateObjectMapping: 0.064700 ms MarkObjects: 2.037300 ms  DeleteObjects: 0.162100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 353.276676 seconds.
-  path: Assets/Script/event_script/audio_supper/audio_instance.cs
-  artifactKey: Guid(ab10056687b70ed4bad930c1f60562f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/event_script/audio_supper/audio_instance.cs using Guid(ab10056687b70ed4bad930c1f60562f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25bea9bd393e2b7b2fec8e6abf410d38') in 0.023798 seconds
-  Import took 0.028706 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.413220 seconds.
-  path: Assets/Asset_summary/Audio、BGM、sound effects/BGM,voice/sound effects/roving sound/Sound Effects Lab Site/footsteps (sound)_betaashi.mp3
-  artifactKey: Guid(bd8f4a85a88562544a93a7a5fe3156f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_summary/Audio、BGM、sound effects/BGM,voice/sound effects/roving sound/Sound Effects Lab Site/footsteps (sound)_betaashi.mp3 using Guid(bd8f4a85a88562544a93a7a5fe3156f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7368d83d373ac9b4092156073937f6ba') in 0.145464 seconds
-  Import took 0.151831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.688932 seconds.
-  path: Assets/Asset_summary/Audio、BGM、sound effects/BGM,voice/sound effects/roving sound/Sound Effects Lab Site/ashibeta_shot.mp3
-  artifactKey: Guid(2449896d61ce30e40a32cc29043c4eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset_summary/Audio、BGM、sound effects/BGM,voice/sound effects/roving sound/Sound Effects Lab Site/ashibeta_shot.mp3 using Guid(2449896d61ce30e40a32cc29043c4eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235d3e6b3fb497f0d394711637dbb98b') in 0.055632 seconds
-  Import took 0.066660 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.755198 seconds.
-  path: Assets/Script/event_script/audio_subClass/footsteps.cs
-  artifactKey: Guid(449acea695e35e84082849d0dce51999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/event_script/audio_subClass/footsteps.cs using Guid(449acea695e35e84082849d0dce51999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128856e5b46187a837ef5fb731e271f6') in 0.013676 seconds
-  Import took 0.018936 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000734 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.923 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1559 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.7 MB.
-System memory in use after: 125.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2165.
-Total: 2.230000 ms (FindLiveObjects: 0.162900 ms CreateObjectMapping: 0.051900 ms MarkObjects: 1.861000 ms  DeleteObjects: 0.153500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 266.069397 seconds.
-  path: Assets/Prefab/door_audio.prefab
-  artifactKey: Guid(55383843658d21f4285d9cf3e38c6e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/door_audio.prefab using Guid(55383843658d21f4285d9cf3e38c6e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b622bd2f9b70e6a6db9218cbba9e83') in 0.082236 seconds
-  Import took 0.087731 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.601984 seconds.
-  path: Assets/Prefab/New character_bone IK, constrain settings complete (candidate for use 2).prefab
-  artifactKey: Guid(a65113cf659758c458bd7cc73701177f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/New character_bone IK, constrain settings complete (candidate for use 2).prefab using Guid(a65113cf659758c458bd7cc73701177f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb75f5c454df8f5fc8af9dd33ed7509c') in 0.029393 seconds
-  Import took 0.035019 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.382220 seconds.
-  path: Assets/Prefab/female_Help_audio.prefab
-  artifactKey: Guid(498830acfae4fa14db9792c03cf728d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/female_Help_audio.prefab using Guid(498830acfae4fa14db9792c03cf728d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578f0ef928c9c13679a6d408dc01f5c1') in 0.013994 seconds
-  Import took 0.022246 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016644 seconds.
-  path: Assets/Prefab/female_Help_audio.prefab
-  artifactKey: Guid(498830acfae4fa14db9792c03cf728d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/female_Help_audio.prefab using Guid(498830acfae4fa14db9792c03cf728d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578f0ef928c9c13679a6d408dc01f5c1') in 0.010463 seconds
-  Import took 0.013712 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000750 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.820 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1559 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.7 MB.
-System memory in use after: 125.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2168.
-Total: 2.360200 ms (FindLiveObjects: 0.199000 ms CreateObjectMapping: 0.092300 ms MarkObjects: 1.884900 ms  DeleteObjects: 0.183200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000761 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.848 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1559 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.7 MB.
-System memory in use after: 125.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2171.
-Total: 2.713500 ms (FindLiveObjects: 0.217100 ms CreateObjectMapping: 0.051000 ms MarkObjects: 2.233600 ms  DeleteObjects: 0.210800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001150 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.878 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1559 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.7 MB.
-System memory in use after: 125.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2174.
-Total: 2.774200 ms (FindLiveObjects: 0.406100 ms CreateObjectMapping: 0.108900 ms MarkObjects: 2.092800 ms  DeleteObjects: 0.165200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001323 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.846 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1559 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.7 MB.
-System memory in use after: 125.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2177.
-Total: 2.872200 ms (FindLiveObjects: 0.174500 ms CreateObjectMapping: 0.055100 ms MarkObjects: 2.439800 ms  DeleteObjects: 0.201800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000788 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.873 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1559 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.8 MB.
-System memory in use after: 125.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2180.
-Total: 2.213400 ms (FindLiveObjects: 0.176000 ms CreateObjectMapping: 0.054900 ms MarkObjects: 1.832600 ms  DeleteObjects: 0.148900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 313.721756 seconds.
-  path: Assets/Prefab/used paper.prefab
-  artifactKey: Guid(2b5faa667f7e32d4cb5a5964b3224958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/used paper.prefab using Guid(2b5faa667f7e32d4cb5a5964b3224958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a4d42976a1648c2b65c6dfe0f61e5a') in 0.109119 seconds
-  Import took 0.116500 seconds .
+  Time since last request: 6.510688 seconds.
+  path: Assets/Script/Ray_judgment/doorjudgment.cs
+  artifactKey: Guid(4a2b155bdc6ee8442adc1a7fd1bd21a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Ray_judgment/doorjudgment.cs using Guid(4a2b155bdc6ee8442adc1a7fd1bd21a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1fe8aacc2331f0dd33b57a2631042fe') in 0.048133 seconds
+  Import took 0.065772 seconds .
 
 ========================================================================
 Received Prepare
@@ -933,127 +277,39 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.875 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1559 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.8 MB.
-System memory in use after: 125.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2183.
-Total: 2.137300 ms (FindLiveObjects: 0.217000 ms CreateObjectMapping: 0.060400 ms MarkObjects: 1.708700 ms  DeleteObjects: 0.150300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 241.767638 seconds.
-  path: Assets/Script/event_script/audio_supper/audio_instance.cs
-  artifactKey: Guid(ab10056687b70ed4bad930c1f60562f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/event_script/audio_supper/audio_instance.cs using Guid(ab10056687b70ed4bad930c1f60562f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c1e6f1c119da3c9ed629ba1238cc9e') in 0.017700 seconds
-  Import took 0.024942 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000784 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.936 seconds
+- Completed reload, in  0.823 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1559 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.8 MB.
-System memory in use after: 125.8 MB.
+Unloading 1558 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.6 MB.
+System memory in use after: 108.6 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2186.
-Total: 2.916900 ms (FindLiveObjects: 0.232500 ms CreateObjectMapping: 0.072300 ms MarkObjects: 2.428600 ms  DeleteObjects: 0.182300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000803 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.890 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1559 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.8 MB.
-System memory in use after: 125.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2189.
-Total: 3.246600 ms (FindLiveObjects: 0.233100 ms CreateObjectMapping: 0.095700 ms MarkObjects: 2.760200 ms  DeleteObjects: 0.156500 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2117.
+Total: 3.653200 ms (FindLiveObjects: 0.241500 ms CreateObjectMapping: 0.069800 ms MarkObjects: 2.874800 ms  DeleteObjects: 0.465400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 130.024703 seconds.
-  path: Assets/Scenes/Scene_A 1.unity
-  artifactKey: Guid(ba65a1da577ce7241948c1f457e985db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene_A 1.unity using Guid(ba65a1da577ce7241948c1f457e985db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1229704ee8026a14e5ad655df469b729') in 0.058790 seconds
-  Import took 0.065905 seconds .
+  Time since last request: 306.573660 seconds.
+  path: Assets/Script/TeatScript/base_clase/test_use.cs
+  artifactKey: Guid(247132ccefd2995428277bc8ae754ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/TeatScript/base_clase/test_use.cs using Guid(247132ccefd2995428277bc8ae754ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b291de816e26f301775c5c9bfef57e4c') in 0.022891 seconds
+  Import took 0.029805 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.213402 seconds.
-  path: Assets/Scenes/Scene_bacup
-  artifactKey: Guid(77284e3d6ed6ec0458f556d091852e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene_bacup using Guid(77284e3d6ed6ec0458f556d091852e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ce90bb43fc4e9e09991284dc701d09') in 0.014807 seconds
-  Import took 0.020579 seconds .
+  Time since last request: 0.563004 seconds.
+  path: Assets/Script/TeatScript/base_clase/test.cs
+  artifactKey: Guid(97961e4235030b647a5e2d2a1e6e9590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/TeatScript/base_clase/test.cs using Guid(97961e4235030b647a5e2d2a1e6e9590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7d4455d1aa121ed756c8f11065e4ba') in 0.016388 seconds
+  Import took 0.022312 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.616644 seconds.
-  path: Assets/Scenes/Scene_A 2.unity
-  artifactKey: Guid(25818f644166fd64f99e749694a6a261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene_A 2.unity using Guid(25818f644166fd64f99e749694a6a261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985ecd20e5f928842bdb3097e152ca98') in 0.018001 seconds
-  Import took 0.025189 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.846451 seconds.
-  path: Assets/Scenes/Scene_bacup/Scene_A 1_backup.unity
-  artifactKey: Guid(25818f644166fd64f99e749694a6a261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene_bacup/Scene_A 1_backup.unity using Guid(25818f644166fd64f99e749694a6a261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde8c8cb67c5af0b85285bf855d2bed8') in 0.014955 seconds
-  Import took 0.020725 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.512939 seconds.
-  path: Assets/Scenes/GameScene_A 1.unity
-  artifactKey: Guid(ba65a1da577ce7241948c1f457e985db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameScene_A 1.unity using Guid(ba65a1da577ce7241948c1f457e985db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813793466328bad87682368fa40223fe') in 0.074321 seconds
-  Import took 0.080356 seconds .
+  Time since last request: 31.274461 seconds.
+  path: Assets/Script/TeatScript/Ray_search.cs
+  artifactKey: Guid(e2b32195c1a8ec94eab4d536af859429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/TeatScript/Ray_search.cs using Guid(e2b32195c1a8ec94eab4d536af859429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0db2bc60fbec3dac9f6c58ff6d15b3') in 0.016250 seconds
+  Import took 0.024598 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
